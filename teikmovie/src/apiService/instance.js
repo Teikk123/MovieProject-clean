@@ -1,8 +1,8 @@
 import axios from 'axios';
 import queryString from 'query-string';
 const instance = axios.create({
-    //baseURL: 'https://server-five-chi.vercel.app/api',
-     baseURL: 'http://localhost:8888/api',
+    baseURL: 'https://movie-project-clean-plw4.vercel.app/api',
+     //baseURL: 'http://localhost:8888/api',
     headers: {
         'Content-Type': 'application/json',
     },
