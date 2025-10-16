@@ -29,7 +29,7 @@ function WatchMovie() {
     const [loading, setLoading] = useState(true);
 
     // Embed link từ vidsrc
-    let src = `https://vidsrc.to/embed/${category}/${id}`;
+    let src = `https://vidsrc.xyz/embed/${category}/${id}`;
     if (category === 'tv') {
         src += `?s=${movieDetail?.seasons ?? 1}&e=${searchParams.get('episode') ?? 1}`;
     }
