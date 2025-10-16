@@ -36,5 +36,7 @@ app.use("/api/genres", genresRouter);
 app.use("/api/auth", authRouter);
 app.use("/api", movieRouter);
 
+const proxyRouter = require("./routes/proxy.route");
+app.use("/api/proxy", proxyRouter);
 
 
