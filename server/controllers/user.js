@@ -3,7 +3,7 @@ const Comment = require("../models/comments");
 const Favortie = require("../models/favorites");
 const History = require("../models/histories");
 
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 class UserController {
   async getAll(req, res) {
